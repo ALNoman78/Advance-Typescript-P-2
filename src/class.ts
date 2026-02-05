@@ -10,7 +10,29 @@ class Animal {
         this.sound = sound;
         this.species = sound
     }
+
+    makeSound() {
+        console.log(`The animal is make sound`)
+    }
 }
 
 const cat = new Animal("snow", "cat", "miywa")
-console.log(cat)
+// console.log(cat)
+console.log(cat.makeSound())
+
+class Bika {
+    model: string;
+    serial_number: string;
+    tank: string;
+    price: string;
+
+    constructor(model: string, serial_number: string, tank: string, price: string) {
+        this.model = model
+        this.serial_number = serial_number
+        this.tank = tank
+        this.price = price
+    }
+    customizeBike() {
+        console.log("This is method ")
+    }
+}
