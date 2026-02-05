@@ -20,7 +20,7 @@ const cat = new Animal("snow", "cat", "miywa")
 // console.log(cat)
 console.log(cat.makeSound())
 
-class Bika {
+class Bike {
     model: string;
     serial_number: string;
     tank: string;
