@@ -20,6 +20,8 @@ const cat = new Animal("snow", "cat", "miywa")
 // console.log(cat)
 console.log(cat.makeSound())
 
+// todo this is all about the class and constructor
+
 class Bike {
     model: string;
     serial_number: string;
