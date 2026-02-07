@@ -44,3 +44,5 @@ class Teacher {
 }
 
 const teacher1 = new Teacher ('Noman', 22 , 'Mirpur-13','Senior Teacher' )
+
+console.log(teacher1.takeClass())
